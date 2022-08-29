@@ -1,0 +1,607 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DF8D54DC28BD8316007B8759 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF8D54DB28BD8316007B8759 /* AppDelegate.swift */; };
+		DF8D54DE28BD8316007B8759 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF8D54DD28BD8316007B8759 /* SceneDelegate.swift */; };
+		DF8D54E028BD8316007B8759 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF8D54DF28BD8316007B8759 /* ViewController.swift */; };
+		DF8D54E328BD8316007B8759 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF8D54E128BD8316007B8759 /* Main.storyboard */; };
+		DF8D54E528BD8319007B8759 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DF8D54E428BD8319007B8759 /* Assets.xcassets */; };
+		DF8D54E828BD8319007B8759 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF8D54E628BD8319007B8759 /* LaunchScreen.storyboard */; };
+		DF8D54F328BD8319007B8759 /* TempHumidity_ProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF8D54F228BD8319007B8759 /* TempHumidity_ProjectTests.swift */; };
+		DF8D54FD28BD8319007B8759 /* TempHumidity_ProjectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF8D54FC28BD8319007B8759 /* TempHumidity_ProjectUITests.swift */; };
+		DF8D54FF28BD8319007B8759 /* TempHumidity_ProjectUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF8D54FE28BD8319007B8759 /* TempHumidity_ProjectUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DF8D54EF28BD8319007B8759 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DF8D54D028BD8316007B8759 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DF8D54D728BD8316007B8759;
+			remoteInfo = "TempHumidity Project";
+		};
+		DF8D54F928BD8319007B8759 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DF8D54D028BD8316007B8759 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DF8D54D728BD8316007B8759;
+			remoteInfo = "TempHumidity Project";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DF8D54D828BD8316007B8759 /* TempHumidity Project.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "TempHumidity Project.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF8D54DB28BD8316007B8759 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DF8D54DD28BD8316007B8759 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		DF8D54DF28BD8316007B8759 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DF8D54E228BD8316007B8759 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DF8D54E428BD8319007B8759 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DF8D54E728BD8319007B8759 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DF8D54E928BD8319007B8759 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DF8D54EE28BD8319007B8759 /* TempHumidity ProjectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "TempHumidity ProjectTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF8D54F228BD8319007B8759 /* TempHumidity_ProjectTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TempHumidity_ProjectTests.swift; sourceTree = "<group>"; };
+		DF8D54F828BD8319007B8759 /* TempHumidity ProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "TempHumidity ProjectUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF8D54FC28BD8319007B8759 /* TempHumidity_ProjectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TempHumidity_ProjectUITests.swift; sourceTree = "<group>"; };
+		DF8D54FE28BD8319007B8759 /* TempHumidity_ProjectUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TempHumidity_ProjectUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DF8D54D528BD8316007B8759 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF8D54EB28BD8319007B8759 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF8D54F528BD8319007B8759 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DF8D54CF28BD8316007B8759 = {
+			isa = PBXGroup;
+			children = (
+				DF8D54DA28BD8316007B8759 /* TempHumidity Project */,
+				DF8D54F128BD8319007B8759 /* TempHumidity ProjectTests */,
+				DF8D54FB28BD8319007B8759 /* TempHumidity ProjectUITests */,
+				DF8D54D928BD8316007B8759 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DF8D54D928BD8316007B8759 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DF8D54D828BD8316007B8759 /* TempHumidity Project.app */,
+				DF8D54EE28BD8319007B8759 /* TempHumidity ProjectTests.xctest */,
+				DF8D54F828BD8319007B8759 /* TempHumidity ProjectUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DF8D54DA28BD8316007B8759 /* TempHumidity Project */ = {
+			isa = PBXGroup;
+			children = (
+				DF8D54DB28BD8316007B8759 /* AppDelegate.swift */,
+				DF8D54DD28BD8316007B8759 /* SceneDelegate.swift */,
+				DF8D54DF28BD8316007B8759 /* ViewController.swift */,
+				DF8D54E128BD8316007B8759 /* Main.storyboard */,
+				DF8D54E428BD8319007B8759 /* Assets.xcassets */,
+				DF8D54E628BD8319007B8759 /* LaunchScreen.storyboard */,
+				DF8D54E928BD8319007B8759 /* Info.plist */,
+			);
+			path = "TempHumidity Project";
+			sourceTree = "<group>";
+		};
+		DF8D54F128BD8319007B8759 /* TempHumidity ProjectTests */ = {
+			isa = PBXGroup;
+			children = (
+				DF8D54F228BD8319007B8759 /* TempHumidity_ProjectTests.swift */,
+			);
+			path = "TempHumidity ProjectTests";
+			sourceTree = "<group>";
+		};
+		DF8D54FB28BD8319007B8759 /* TempHumidity ProjectUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DF8D54FC28BD8319007B8759 /* TempHumidity_ProjectUITests.swift */,
+				DF8D54FE28BD8319007B8759 /* TempHumidity_ProjectUITestsLaunchTests.swift */,
+			);
+			path = "TempHumidity ProjectUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DF8D54D728BD8316007B8759 /* TempHumidity Project */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DF8D550228BD8319007B8759 /* Build configuration list for PBXNativeTarget "TempHumidity Project" */;
+			buildPhases = (
+				DF8D54D428BD8316007B8759 /* Sources */,
+				DF8D54D528BD8316007B8759 /* Frameworks */,
+				DF8D54D628BD8316007B8759 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "TempHumidity Project";
+			productName = "TempHumidity Project";
+			productReference = DF8D54D828BD8316007B8759 /* TempHumidity Project.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DF8D54ED28BD8319007B8759 /* TempHumidity ProjectTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DF8D550528BD8319007B8759 /* Build configuration list for PBXNativeTarget "TempHumidity ProjectTests" */;
+			buildPhases = (
+				DF8D54EA28BD8319007B8759 /* Sources */,
+				DF8D54EB28BD8319007B8759 /* Frameworks */,
+				DF8D54EC28BD8319007B8759 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DF8D54F028BD8319007B8759 /* PBXTargetDependency */,
+			);
+			name = "TempHumidity ProjectTests";
+			productName = "TempHumidity ProjectTests";
+			productReference = DF8D54EE28BD8319007B8759 /* TempHumidity ProjectTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DF8D54F728BD8319007B8759 /* TempHumidity ProjectUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DF8D550828BD8319007B8759 /* Build configuration list for PBXNativeTarget "TempHumidity ProjectUITests" */;
+			buildPhases = (
+				DF8D54F428BD8319007B8759 /* Sources */,
+				DF8D54F528BD8319007B8759 /* Frameworks */,
+				DF8D54F628BD8319007B8759 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DF8D54FA28BD8319007B8759 /* PBXTargetDependency */,
+			);
+			name = "TempHumidity ProjectUITests";
+			productName = "TempHumidity ProjectUITests";
+			productReference = DF8D54F828BD8319007B8759 /* TempHumidity ProjectUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DF8D54D028BD8316007B8759 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					DF8D54D728BD8316007B8759 = {
+						CreatedOnToolsVersion = 13.4;
+					};
+					DF8D54ED28BD8319007B8759 = {
+						CreatedOnToolsVersion = 13.4;
+						TestTargetID = DF8D54D728BD8316007B8759;
+					};
+					DF8D54F728BD8319007B8759 = {
+						CreatedOnToolsVersion = 13.4;
+						TestTargetID = DF8D54D728BD8316007B8759;
+					};
+				};
+			};
+			buildConfigurationList = DF8D54D328BD8316007B8759 /* Build configuration list for PBXProject "TempHumidity Project" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DF8D54CF28BD8316007B8759;
+			productRefGroup = DF8D54D928BD8316007B8759 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DF8D54D728BD8316007B8759 /* TempHumidity Project */,
+				DF8D54ED28BD8319007B8759 /* TempHumidity ProjectTests */,
+				DF8D54F728BD8319007B8759 /* TempHumidity ProjectUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DF8D54D628BD8316007B8759 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF8D54E828BD8319007B8759 /* LaunchScreen.storyboard in Resources */,
+				DF8D54E528BD8319007B8759 /* Assets.xcassets in Resources */,
+				DF8D54E328BD8316007B8759 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF8D54EC28BD8319007B8759 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF8D54F628BD8319007B8759 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DF8D54D428BD8316007B8759 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF8D54E028BD8316007B8759 /* ViewController.swift in Sources */,
+				DF8D54DC28BD8316007B8759 /* AppDelegate.swift in Sources */,
+				DF8D54DE28BD8316007B8759 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF8D54EA28BD8319007B8759 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF8D54F328BD8319007B8759 /* TempHumidity_ProjectTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF8D54F428BD8319007B8759 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF8D54FD28BD8319007B8759 /* TempHumidity_ProjectUITests.swift in Sources */,
+				DF8D54FF28BD8319007B8759 /* TempHumidity_ProjectUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DF8D54F028BD8319007B8759 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DF8D54D728BD8316007B8759 /* TempHumidity Project */;
+			targetProxy = DF8D54EF28BD8319007B8759 /* PBXContainerItemProxy */;
+		};
+		DF8D54FA28BD8319007B8759 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DF8D54D728BD8316007B8759 /* TempHumidity Project */;
+			targetProxy = DF8D54F928BD8319007B8759 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DF8D54E128BD8316007B8759 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DF8D54E228BD8316007B8759 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DF8D54E628BD8319007B8759 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DF8D54E728BD8319007B8759 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DF8D550028BD8319007B8759 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DF8D550128BD8319007B8759 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DF8D550328BD8319007B8759 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = M2C9B28VAY;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "TempHumidity Project/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.JustinLang.TempHumidity-Project";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DF8D550428BD8319007B8759 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = M2C9B28VAY;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "TempHumidity Project/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.JustinLang.TempHumidity-Project";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		DF8D550628BD8319007B8759 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = M2C9B28VAY;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.JustinLang.TempHumidity-ProjectTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TempHumidity Project.app/TempHumidity Project";
+			};
+			name = Debug;
+		};
+		DF8D550728BD8319007B8759 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = M2C9B28VAY;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.JustinLang.TempHumidity-ProjectTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TempHumidity Project.app/TempHumidity Project";
+			};
+			name = Release;
+		};
+		DF8D550928BD8319007B8759 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = M2C9B28VAY;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.JustinLang.TempHumidity-ProjectUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "TempHumidity Project";
+			};
+			name = Debug;
+		};
+		DF8D550A28BD8319007B8759 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = M2C9B28VAY;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.JustinLang.TempHumidity-ProjectUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "TempHumidity Project";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DF8D54D328BD8316007B8759 /* Build configuration list for PBXProject "TempHumidity Project" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF8D550028BD8319007B8759 /* Debug */,
+				DF8D550128BD8319007B8759 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DF8D550228BD8319007B8759 /* Build configuration list for PBXNativeTarget "TempHumidity Project" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF8D550328BD8319007B8759 /* Debug */,
+				DF8D550428BD8319007B8759 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DF8D550528BD8319007B8759 /* Build configuration list for PBXNativeTarget "TempHumidity ProjectTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF8D550628BD8319007B8759 /* Debug */,
+				DF8D550728BD8319007B8759 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DF8D550828BD8319007B8759 /* Build configuration list for PBXNativeTarget "TempHumidity ProjectUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF8D550928BD8319007B8759 /* Debug */,
+				DF8D550A28BD8319007B8759 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DF8D54D028BD8316007B8759 /* Project object */;
+}
